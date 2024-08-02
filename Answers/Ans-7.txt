@@ -1,0 +1,43 @@
+7. Explain 3 schema architecture along with its advatages?
+
+Solution:
+
+Imagine you're building a big database for a school4 The Three Schema Architecture helps organize how the database works:
+
+A. External Shcema: 
+
+.What it does: It decides how information looks for different people or apps using the database.
+
+.Example:  For students, it shows grades and schedules4 For teachers, it shows class rosters.
+
+.Why it's good: people see only what they need4 If you change how things look, it doesn't mess up the inside or the overall structure.
+
+B. Conceptual schema:
+.What it does:: It plans how all the different info in the database is connected and organized.
+
+.Example: it decides how students, classes, and teachers are linked together.
+
+Why it's good:Keeps everthing organized, like a big map of how things fit together. Changes to how things are organized don't affect how you see them or how they're stored.
+
+C. Internal Shcema:
+
+.What it does:: Handles the nitty-gritty details of how info is stored and processed inside the computer.
+
+. Example: Decides how student data is saved on the computer's hard drive.
+
+
+. Why it's good: Helps the computer deal with data efficiently and securely. Keeps the data safe and makes 
+things run faster.
+
+
+Advantages:
+. Changes without Chaos: you can change how things look, how they're organized, or how they're stored without messing up everything else.
+
+
+. Everyone Gets What They Need: People or apps see only what they're supposed to see. Students see grades, 
+teachers see schedules, and nobody sees what they shouldn't.
+
+
+; Efficient and Secure Storage: Helps the computer store and manage data in a way that's fast, safe, and makes sense for the shcool.
+
+

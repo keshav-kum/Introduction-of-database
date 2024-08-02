@@ -1,0 +1,34 @@
+Explain 5 challenges of file-based storage system which was tackled by DBMS?
+
+Solution:
+A. Data Redundancy and inconsistency:
+
+.Challenge in File-Based System: In file-based systems, the same data could be duplicated across multiple
+files. This redundancy led to inconsistencies and inefficiencies because changes made to one copy of the data might not be reflected in others.
+
+.How DBMS Addresses it: DBMS enforced data integrity rules, helping to eliminate redundancy and ensuring coherence in data representation.
+
+B.Data isolation and inflexibility:
+
+.Challenge in File-Based System: Each application in a file-based system typically had its own set of files, 
+making it difficult to shar% data between applications. This isolation hindered collaboration and made it challenging to maintain a unified view of the data.
+
+.How DBMS Adresses it:  DBMS provides a centralized repository where data can be shared among multiple 
+applications. It allows for a more flexible and integrated approach, enabling different parts of an
+organization to access and use the same data while maintaining data consistency.
+
+C.Limited Data Retrieval Capabilities:
+
+.Challenge in File-Bases System: In a multi-user environment where multiple users could access and modify data simultaneously, file-based systems often faced concurrency issues. Conflicts and 
+inconsistencies could arise when two or more users tried to update the same data concurrently.
+
+.How DBMS Addresses it: DBMS incorporates concurrency control mechanisms, such as locking and 
+transaction management, to ensure that multiple users can work with the data concurrently without introducing conflicts. This helps maintain data consistency in a multi-user environment.
+
+E.Limited Secutiy Controls:
+
+.challenge in File-Based System: File-based systems often lacked robust security features, making it challenging to control access to specific files or ensure data privacy. Scurity measures were limited, and it was difficult to implement fine-grained access controls.
+
+.How DBMS Adresses it: DBMS provides comprehensive security features, allowing administrators to define 
+user roles and permissions. Access controls can be implemented at various levels, ensuring that only 
+authorized users have access to specific data. This helps protect sensitive information and ensures data ecurity within the database.

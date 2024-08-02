@@ -1,0 +1,31 @@
+2. Write a short note on file based storage system. Explain the major challenges of a file based storage system?
+
+Solution:
+A file-based storage system is a traditional method of managing and organizing data on a computer. In this 
+system, data is stored in files, and each file contains information related to a specific task or application. While 
+file-based storage systems have been widely used in the past, they come with certain challenges:
+
+.Data Redundancy: In a file-based system, the same data might be duplicated in multiple files. This 
+redundancy can lead to inconsistencies and inefficiencies, as changes to one copy of the data may not be reflected in others.
+
+.Data Isolation: Each application typically has its own set of files, and sharing data between applications 
+can be challenging. This isolation can hinder collaboration and make it difficult to maintain a unified view of 
+the data across the organization.
+
+.Limited Data Integrity: File-based systems often lack built-in mechanisms to enforce data integrity. 
+Without proper constraints, there is a risk of entering inaccurate or invalid data, which can compromise the 
+reliability of the information stored
+
+.Limited Query Capabillities: Retrieving specific pieces of information from a file-based system can be 
+cumbersome. Since the data is not organized in a structured manner, searching for and extracting specific 
+data elements may require manual effort and can be time-consuming.
+
+.concurrency Issues:In a multi-user environment, where multiple users may access and modify data 
+simultaneously, file-based systems may encounter concurrency issues. Without proper mechanisms to 
+manage concurrent access, conflicts and data inconsistencies may arise.
+
+Scalability Challenges: As the volume of data grows, managing and scaling a file-based storage system 
+becomes increasingly complex. Performance may degrade, and it can become challenging to handle large database systems.
+
+.Security Concerns:File-based systems often lack robust security features. Controlling access to specific 
+files or ensuring data privacy can be challenging without the granular security controls provided by modern database systems.

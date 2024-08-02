@@ -1,0 +1,19 @@
+1. what is a database? Explain with an example on why should we need a database.
+
+solution:
+ A database is like a super organized collection of information. Imagine you're running a shop. Without a database, you might keep track of things like product details and sales in files or spreadsheets. But as your shop grows, this gets tricky.
+
+ Here's Why a database is helpful:
+
+ .No Mistakes: It helps keep information accurate and right. For instance, it can stop you from putting in the 
+wrong stuff, like saying you sold 5 products.
+
+.Quick Searches:You can find things super fast. Want to know which products sold best last month? Easy!
+
+.No Mix-ups: If many people are working with the data at the same time, the database makes sure nobody 
+messes things up. Everyone sees the correct info.
+
+.Handles More Data: As your shop gets bigger, you'll have more info to deal with. Databases are good at 
+handling lots of information without slowing down.
+
+.Keeps Secrets: It lets you decide who can see what. So, if some data is private, only certain people can access it.

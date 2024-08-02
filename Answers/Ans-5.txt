@@ -1,0 +1,60 @@
+5.List out the different types of classification in DBMS and Explain?
+
+Solution:
+
+In Database management Systems (DNMS), databases cab be classified based on different criteria. Here are some common types of classifications:
+
+A.Based on Data Model:
+
+.Relation Databases:Organize data into tables with rows and columns. Examples include MySQL, PostgreSQL, and Oracle Database.
+
+NoSQL Databases: Do not use the traditional tabular relational model. Can be document-oriented, key-value 
+stores, graph databases, etc. Examples include MongoDB, Redis, and Neo4j.
+
+B.Based on Structure:
+
+.Structure Databases: Data is organized in a predefined structure, such as tables in relational databasses.
+
+.Unstrucred Databases: Data is not organized in a pre-defined manner, allowing for flexibilty in data storage.  
+
+C. Based on Accessibility:
+
+.Centralized Databases:  Data is stored in a single location, and access is controlled from that central point
+
+.Distributed Databases: Data is distributed across multiple locations or servers. Allows for better scalability and fault tolerance.
+
+D.Based  on consistent
+
+.Document-oriented Databases:: Store data as documents (e.g., JSON or XML). Suitable for semi-structured data.
+
+.Graph Databases: Focus on relationships between data entities. Suitable for scenarios involving complex relationships.
+
+E.Based on application:
+
+.Operation Databases:  Used for day-to-day operations of an organization. Optimized for read and write operations.
+
+.Analytical Databases: Used  for complex queries and data analysis. Optimized for read-intensive operations.
+
+F. Based on Usage: 
+
+.Online transaction Processing (OLTP) Databases:Designed for transactional processing and support and support high-volume, real-time transactions.
+
+Online Analytical Processing (OLAP) : Designed for complex queries and reporting, supporting data analysis and decision-making.
+
+G. Based on Relationships:
+
+.Relational Databases: Represent relationships between data entities using tables and keys.
+
+.Hierarchical Databases: Organize data in a tree-like structure, suitable for representing parent-child relationships.
+
+.Network Databases: Represent data using a more complex network model, allowing many-to-many relationships.
+
+H. Based on Deployment: 
+
+.On-premises Databases:Installed and operated from an organization's in-house server and computing infrastructure.
+
+.Cloud Databases: Hosted on cloud platforms, providing scalability, flexibility, and accessibility from anywhere with an internet connection. 
+
+
+
+
